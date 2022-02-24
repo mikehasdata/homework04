@@ -7,11 +7,6 @@ public class Circle {
 
 
     /** constructor */
-    public Circle()
-    {
-        center = new Point(0,0);
-        radius = 1;
-    }
     public Circle(Point userGivenPoint, int userGivenRadius)
     {
         center = new Point(0,0);
