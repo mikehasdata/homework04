@@ -36,7 +36,10 @@ public class CircleTest {
             System.out.println(firstCircle.toString());
             System.out.println(secondCircle.toString());
             System.out.println();
-            System.out.println("Checking for equality...");
+            System.out.println("Observing the distance between centers...");
+            System.out.println(point1.distance(point2) + " is the number we get...");
+            System.out.println();
+            System.out.println("Checking for equality between circles...");
             System.out.println(firstCircle.equals(secondCircle));
             System.out.println();
             System.out.println("The average area between the two are: ");
